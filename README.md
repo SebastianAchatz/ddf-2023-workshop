@@ -1,2 +1,2 @@
-# ddf-2023-workshop
-Repo für die Inhalte des Dot Net Day Franken 2023 Workshop "Zwiebeln schälen"
+# Workshop "Zwiebeln schälen" beim NET Day Franken 2023
+Hier finden sich alle Inhalte des Workshops die wir zusammen erarbeiten.
