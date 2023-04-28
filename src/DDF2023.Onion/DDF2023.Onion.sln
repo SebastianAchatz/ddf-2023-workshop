@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Core.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Infra.Storage", "DDF2023.Onion.Infra.Storage\DDF2023.Onion.Infra.Storage.csproj", "{460E8E42-10BF-42D5-B366-A3BEE07A1814}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.WebApi", "DDF2023.Onion.WebApi\DDF2023.Onion.WebApi.csproj", "{8E3700DC-53DD-4E9E-9759-A4098D8B9C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3700DC-53DD-4E9E-9759-A4098D8B9C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3700DC-53DD-4E9E-9759-A4098D8B9C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3700DC-53DD-4E9E-9759-A4098D8B9C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3700DC-53DD-4E9E-9759-A4098D8B9C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

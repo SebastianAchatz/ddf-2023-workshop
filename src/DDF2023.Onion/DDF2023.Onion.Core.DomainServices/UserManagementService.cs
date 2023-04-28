@@ -15,7 +15,7 @@ public class UserManagementService : IUserManagementService
     public void AddUser(User user)
     {
         if (_userRepository.UserExists(user.Username))
-            throw new Exception("Username already exists");
+            throw new UserAlreadyExistsException("Username already exists");
         
         _userRepository.AddUser(user);
     }
