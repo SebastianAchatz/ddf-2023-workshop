@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Core.DomainModel", "DDF2023.Onion.Core.DomainModel\DDF2023.Onion.Core.DomainModel.csproj", "{9E5C3607-DBF5-466D-B770-803A2190946C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Core.DomainServices", "DDF2023.Onion.Core.DomainServices\DDF2023.Onion.Core.DomainServices.csproj", "{9A97B711-DBE1-44B2-89F9-88B65D293FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Core.ApplicationServices", "DDF2023.Onion.Core.ApplicationServices\DDF2023.Onion.Core.ApplicationServices.csproj", "{CC8720BC-5EC0-405E-80D1-5C6CE3DA9E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDF2023.Onion.Infra.Storage", "DDF2023.Onion.Infra.Storage\DDF2023.Onion.Infra.Storage.csproj", "{460E8E42-10BF-42D5-B366-A3BEE07A1814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E5C3607-DBF5-466D-B770-803A2190946C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5C3607-DBF5-466D-B770-803A2190946C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5C3607-DBF5-466D-B770-803A2190946C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5C3607-DBF5-466D-B770-803A2190946C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A97B711-DBE1-44B2-89F9-88B65D293FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A97B711-DBE1-44B2-89F9-88B65D293FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A97B711-DBE1-44B2-89F9-88B65D293FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A97B711-DBE1-44B2-89F9-88B65D293FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8720BC-5EC0-405E-80D1-5C6CE3DA9E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8720BC-5EC0-405E-80D1-5C6CE3DA9E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8720BC-5EC0-405E-80D1-5C6CE3DA9E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8720BC-5EC0-405E-80D1-5C6CE3DA9E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460E8E42-10BF-42D5-B366-A3BEE07A1814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
