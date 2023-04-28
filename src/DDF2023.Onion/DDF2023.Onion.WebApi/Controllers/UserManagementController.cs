@@ -1,7 +1,6 @@
 using DDF2023.Onion.Core.DomainModel;
 using DDF2023.Onion.Core.DomainServices;
 using DDF2023.Onion.WebApi.PublicModels;
-using DDF2023.PnA.Ports;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DDF2023.Onion.WebApi.Controllers;
@@ -29,7 +28,6 @@ public class UserManagementController : ControllerBase
         if(string.IsNullOrEmpty(userModel.Username))
             return new BadRequestResult();
         
-        // todo: user anlegen
         var user = new User()
         {
             Firstname = userModel.Firstname,

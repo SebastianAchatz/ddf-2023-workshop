@@ -1,5 +1,4 @@
 using DDF2023.Onion.Core.DomainModel;
-using DDF2023.PnA.Ports;
 
 namespace DDF2023.Onion.Core.DomainServices;
 

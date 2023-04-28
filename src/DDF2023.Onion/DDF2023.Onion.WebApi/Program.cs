@@ -1,6 +1,5 @@
 using DDF2023.Onion.Core.DomainServices;
 using DDF2023.Onion.Infra.Storage;
-using DDF2023.PnA.Ports;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IUserRepository, UserFileRepository>(provider =>
+builder.Services.AddScoped<IUserRepository, UserFileRepository>(provider =>
     new UserFileRepository("/Users/sebastian/Desktop/UserData"));
 
-builder.Services.AddSingleton<IUserManagementService, UserManagementService>();
+builder.Services.AddScoped<IUserManagementService, UserManagementService>();
 
 var app = builder.Build();
 
